@@ -1,10 +1,30 @@
-UserName :raj, Action:withdraw of 1000 amount, Status: Error : Account Balance is less than your withdraw amount
-UserName :Harsh, Action:withdraw of 250 amount, Status: Error : Withdraw amount exceed limit of your current account
-UserName :raj, Action:withdraw of 1000 amount, Status: Error : Account Balance is less than your withdraw amount
-UserName :Harsh, Action:withdraw of 250 amount, Status: Error : Withdraw amount exceed limit of your current account
-UserName :raj, Action:withdraw of 1000 amount, Status: Error : Account Balance is less than your withdraw amount
-UserName :Harsh, Action:withdraw of 250 amount, Status: Error : Withdraw amount exceed limit of your current account
-UserName :raj, Action:withdraw of 100 amount, Status: Success : Successfully withdrawn.
-UserName :Harsh, Action:withdraw of 20 amount, Status: Success : Successfully withdrawn.
-UserName :raj, Action:withdraw of 100 amount, Status: Success : Successfully withdrawn.
-UserName :Harsh, Action:withdraw of 50 amount, Status: Success : Successfully withdrawn.
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
+UserName : raj, Action : withdraw of 100 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 50 amount, Status : Success : Successfully withdrawn.
+UserName : Harsh, Action : withdraw of 500 amount, Status : Error : Withdraw amount exceed limit of your current account. 
