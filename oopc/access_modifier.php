@@ -1,10 +1,10 @@
 <pre><?php
- ini_set('display_errors', '1');
- ini_set('display_startup_errors', '1');
- error_reporting(E_ALL);
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 class Access_modifier
 {
-    
+
     public $name;
     private $password;
     protected $email;
@@ -22,12 +22,13 @@ class Access_modifier
             'email' => $this->email
         );
     }
-    public function set_data($var_name, $value){
+    public function set_data($var_name, $value)
+    {
         $this->$var_name = $value;
     }
 }
 
-$obj = new Access_modifier('raj','123','raj@gmail.com');
+$obj = new Access_modifier('raj', '123', 'raj@gmail.com');
 // $obj->email; error
 // $obj->password; error
 

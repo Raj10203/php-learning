@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    /* background-image: linear-gradient(black, rgb(136, 151, 238)); */
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    min-width: 238px;
+    padding: 0 10px;
+}
+
+.sign-in-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.title {
+    font-size: 35px;
+    color: #4a54df;
+    margin-bottom: 10px;
+}
+
+.last-text {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+    padding: 0 20px;
+}
+
+.input-field {
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+    margin: 10px 0;
+    border: 2px solid #4a54df;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field i {
+    flex: 1;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+.input-image {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    border: 2px solid #4a54df;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.input-image input {
+    display: none;
+}
+
+#date-input-lable {
+    left: -10px;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+#date-input {
+    opacity: 0.5;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.input-field input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-weight: 600;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #4a54df;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #0400f0;
+    transition: all .5s ease;
+}
+
+/* Responsive */
+@media (max-width:779px) {}
+
+@media (max-width:635px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media (max-width:320px) {
+    form {
+        width: 90%;
+    }
+}
